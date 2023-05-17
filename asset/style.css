@@ -1,0 +1,118 @@
+/* Styles généraux */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+.header {
+  background-color: black;
+  color: white;
+  padding: 10px;
+
+}
+
+
+.header h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 20px;
+}
+
+
+
+.formulaires-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.formulaire {
+  margin: 20px 20px;
+}
+
+
+
+#formDelete {
+  display: none;
+
+}
+
+
+.graph-button {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #000;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+#form {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#form p {
+  margin-bottom: 10px;
+}
+
+#nom,
+#nomDelete {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+  max-width: 100%;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #f0f0f0;
+  color: #333;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #f0f0f0;
+  color: #333;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+}
+
+.bar .item {
+  margin-right: 20px;
+
+}
