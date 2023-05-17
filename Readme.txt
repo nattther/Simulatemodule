@@ -1,4 +1,3 @@
-ATTENTION : Comme on ne peut envoyer de fichier .js par mail je l'ai renommé script.txt merci de le changer en script.js.
 
 
 Prérequis :
